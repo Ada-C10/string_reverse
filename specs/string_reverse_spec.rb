@@ -8,7 +8,6 @@ describe "string reverse" do
       test_string = "Hello"
 
       string_reverse(test_string)
-
       test_string.must_equal "olleH"
     end
 
