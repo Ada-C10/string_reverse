@@ -1,4 +1,14 @@
 # A method to reverse a string in place.
 def string_reverse(my_string)
-  my_string << "not implemented"
+  return nil if my_string == nil
+  middle = my_string.length / 2
+  last = my_string.length - 1
+  temp = ""
+  i = 0
+  while i < middle
+    temp = my_string[i]
+    my_string[i] = my_string[last - i]
+    my_string[last - i] = temp
+    i += 1
+  end
 end
