@@ -1,30 +1,27 @@
 # A method to reverse a string in place.
-def string_reverse(word)
+def string_reverse(my_string)
 
-  if word == nil
+  if my_string == nil
     return nil
   end
 
-  if word.length == 0
+  if my_string.length == 0
     return false
   end
 
-  if word.length == 1
-    return word
+  if my_string.length == 1
+    return my_string
   end
 
   i = 0
-  j = word.length - 1
+  j = my_string.length - 1
   while i <= j
-    temp = word[i]
-    word[i] = word[j]
-    word[j] = temp
+    temp = my_string[i]
+    my_string[i] = my_string[j]
+    my_string[j] = temp
 
     i += 1
     j -= 1
   end
-  return word
+  return my_string
 end
-
-y = string_reverse("olleh")
-puts "#{y}"
