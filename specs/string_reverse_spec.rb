@@ -37,7 +37,7 @@ describe "string reverse" do
       test_string = nil
 
       string_reverse(test_string)
-
+      # binding.pry 
       test_string.must_be_nil
     end
 
