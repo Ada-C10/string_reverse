@@ -17,3 +17,9 @@ def string_reverse(my_string)
 
   return my_string
 end
+
+# time complexity: O(n/2) which is O(n)
+# We only iterate to half of the array, as n increases this causes a linear correlation for time complexity
+
+# space complexity: O(1)
+# We only store 3 variables in memory, as n increases the space complexity remains constant
