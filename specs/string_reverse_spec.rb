@@ -1,6 +1,7 @@
 require 'minitest/autorun'
 require 'minitest/reporters'
 require_relative '../lib/string_reverse'
+require 'pry'
 
 describe "string reverse" do
   describe "basic tests" do
