@@ -19,12 +19,3 @@ def string_reverse(my_string)
   end
 
 end
-
-# Space complexity is constant O(1),
-# the amount of space needed to run
-# the algorithm ( to accomdate i, j, first_letter, last_letter)
-# remains unchange by the size of the input (my_string)
-
-# Time complexity is linear O(n), where n is my_string.length.
-# The amount of time it takes to run the algorithm depends
-# on the size of the size of input, ie. the length of the array
