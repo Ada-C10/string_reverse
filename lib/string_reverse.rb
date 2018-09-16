@@ -1,6 +1,7 @@
 # A method to reverse a string in place.
 def string_reverse(my_string)
 
+# find length
   if my_string
     index = 0
     while my_string[index]
@@ -14,6 +15,8 @@ def string_reverse(my_string)
 
     small_index = 0
     big_index = index - 1
+
+  # time to reverse!
 
     while small_index < big_index
       temp = my_string[small_index]
