@@ -7,8 +7,13 @@ def string_reverse(my_string)
       index += 1
     end
 
+# if string is one character long, return it
+    if index == 1 # index --> length
+      return my_string
+    end
+
     small_index = 0
-    big_index = index - 1 # index --> length
+    big_index = index - 1
 
     while small_index < big_index
       temp = my_string[small_index]
