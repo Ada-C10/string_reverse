@@ -18,3 +18,5 @@ def string_reverse(my_string)
   return my_string
 
 end
+ # Time complexity: linear
+ # Space complexity: constant
