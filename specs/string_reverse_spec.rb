@@ -7,15 +7,14 @@ describe "string reverse" do
     it "reverse a string with odd number of characters" do
       test_string = "Hello"
 
-      string_reverse(test_string)
-
+      test_string = string_reverse(test_string)
       test_string.must_equal "olleH"
     end
 
     it "reverse a string with even number of characters" do
       test_string = "Software"
 
-      string_reverse(test_string)
+      test_string = string_reverse(test_string)
 
       test_string.must_equal "erawtfoS"
     end
