@@ -2,6 +2,7 @@
 def string_reverse(my_string)
 
   return nil if my_string == nil
+  return '' if my_string == ''
 
   i = 0
   j = my_string.length - 1
