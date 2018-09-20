@@ -1,9 +1,9 @@
 # A method to reverse a string in place.
 # Time Complexity: O(n/2) = O(n)
-# Space Complexity: O(1) since we are reversing the string "in place"
+# Space Complexity: O(1) since we are reversing the string "in place", variables are auxiliary storages
 
 def string_reverse(my_string)
-  return nil if my_string == nil
+  return nil if my_string == nil || my_string.length == 0
 
   i = 0
   j = my_string.length - 1
@@ -16,5 +16,5 @@ def string_reverse(my_string)
     j -= 1
   end
 
-  return my_string
+  return # reversal is done in place so no new object is returned
 end
